@@ -1,0 +1,29 @@
+.grid {
+  width: 400px;
+  height: 600px;
+  background-image: url(/images/space.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  font-size: 200px;
+  color: white;
+  text-align: center;
+}
+
+.ship {
+  width: 60px;
+  height: 85px;
+  background-image: url(/images/ship.png);
+  background-size: cover;
+  position: absolute;
+  z-index: 1;
+}
+
+.platform {
+  width: 85px;
+  height: 15px;
+  border-radius: 50%;
+  background-image: url(/images/jup.png);
+  background-position: center;
+  position: absolute;
+}
